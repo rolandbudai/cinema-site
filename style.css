@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 3000px;
+
+}
+
+nav {
+    background-image: url("./pics/navbar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-position: left top;
+    height: 40%;
+    width: 100vw;
+}
+
+footer {
+    background-image: url("./pics/footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom:0;
+    left:0;
+    height: 40%;
+    width: 100vw;
+}
+
+.left {
+    background-image: linear-gradient(to right, rgb(0, 0, 0) ,rgb(0, 0, 0),  rgb(31, 31, 29));
+    background-size: cover;
+    position: fixed;
+    bottom:40%;
+    left:0;
+    height: 20%;
+    width: 30%;
+}
+
+.right {
+    background-image: linear-gradient(to left, rgb(0, 0, 0) ,rgb(0, 0, 0),  rgb(31, 31, 29));
+    background-size: cover;
+    position: fixed;
+    bottom:40%;
+    right:0;
+    height: 20%;
+    width: 30%;
+}
